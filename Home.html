@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="theme.js"></script>
+</head>
+<body>
+
+<header class="hero text-center">
+  <div class="container">
+    <h1>WELCOME</h1>
+
+    <nav class="navbar navbar-expand navbar-dark">
+      <ul class="navbar-nav mx-auto flex-wrap justify-content-center align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="Home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Accommodation.html">Accommodation</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-3">
+          <button id="themeButton" class="btn btn-sm btn-gold" type="button" onclick="changeTheme()">Dark mode</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container my-4">
+
+  <section>
+    <h2 class="visually-hidden">The flags of Lesotho</h2>
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <img src="flag.jpg" class="flag-img rounded" alt="Current flag of Lesotho: blue, white and green stripes with a black Basotho hat in the centre">
+      </div>
+
+      <article class="col-md-3 mb-3">
+        <h3>The Lesotho National Flag (2006 - Present)</h3>
+        <p class="flag">The flag of Lesotho, adopted on the 40th anniversary of Lesotho's independence on 4 October 2006, features a horizontal blue, white, and green tricolour with a black mokorotlo (a Basotho hat) in the center. The design is intended to reflect a state that is both at peace internally.</p>
+      </article>
+
+      <div class="col-md-3 mb-3">
+        <img src="flag-old.jpg" class="flag-img rounded" alt="Old flag of Lesotho (1987 to 2006) with a Basotho shield, assegai and knobkierrie">
+      </div>
+
+      <article class="col-md-3 mb-3">
+        <h3>The Old Lesotho Flag (1987 - 2006)</h3>
+        <p class="flag">A light brown traditional Basotho shield along with an assegai (lance) and knobkierrie (club) replaced the mokorotlo as the primary emblem. The colour scheme and pattern changed as well, with a triangular white field standing for peace. The bottom diagonal contained a blue strip for rain and a green triangle for prosperity.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <h2 id="preview-heading" class="text-center">Gallery Preview</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <img src="kome.jpg" class="img-fluid rounded" alt="Kome Caves, Lesotho">
+      </div>
+    </div>
+
+    <div class="row mt-1">
+      <div class="col-md-4 mb-3"><img src="katse.jpg" class="photo" alt="Katse Dam, Lesotho"></div>
+      <div class="col-md-4 mb-3"><img src="m-river.jpg" class="photo" alt="Maletsunyane River, Lesotho"></div>
+      <div class="col-md-4 mb-3"><img src="senqu.jpg" class="photo" alt="Senqu River, Lesotho"></div>
+    </div>
+    
+  </section>
+
+  <aside class="mt-5">
+    <div class="info-box">
+      <h3>Quick Facts</h3>
+      <ul class="list-unstyled mb-0">
+        <li><strong>Capital:</strong> Maseru</li>
+        <li><strong>Currency:</strong> Loti (M)</li>
+        <li><strong>Languages:</strong> Sesotho and English</li>
+        <li><strong>Nickname:</strong> The Kingdom in the Sky</li>
+      </ul>
+    </div>
+  </aside>
+
+<nav class="mt-5">
+  <ul class="pager">
+    <li><a href="gallery.html">Next</a></li>
+  </ul>
+</nav>
+</main>
+
+<footer class="site-footer text-center">
+ <div>&copy; 2026 All Rights Reseve </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
